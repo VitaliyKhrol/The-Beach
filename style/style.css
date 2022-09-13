@@ -12,7 +12,7 @@ body {
 }
 
 .case {
-  background-image: url('../images/beachshowcase.jpg');
+  background-image: url("../images/beachshowcase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,4 +81,20 @@ body {
   display: inline-block;
   width: 32.6vw;
   background: #f9f9f9;
+}
+
+@media screen and (max-width: 576px) {
+  .box-1,
+  .box-3 {
+    display: block;
+    width: 100%;
+    background: #926239;
+    color: #fff;
+  }
+
+  .box-2 {
+    display: block;
+    width: 100%;
+    background: #f9f9f9;
+  }
 }
